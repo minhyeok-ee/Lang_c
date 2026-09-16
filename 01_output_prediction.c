@@ -48,7 +48,7 @@ void q2(void) {
 }
 
 /* Q3. 구조체 크기 (메모리 정렬과 패딩)
- * 내 답:
+ * 내 답: 12 8 6
  */
 struct A {
     char c;
@@ -72,7 +72,7 @@ void q3(void) {
 }
 
 /* Q4. 매크로의 함정
- * 내 답:
+ * 내 답: 
  */
 #define SQUARE(x) x *x
 #define MAX(a, b) ((a) > (b) ? (a) : (b))
