@@ -43,7 +43,7 @@ void *my_memcpy(void *dst, const void *src, size_t n)
 
 /* 문제 5. memmove: src와 dst 영역이 겹쳐도 올바르게 복사하고 dst를 반환
  * 예) s = "abcdefgh"; my_memmove(s + 2, s, 5); -> "ababcdeh"
- * 면접 단골: memcpy와 memmove의 차이는?
+ * 생각해보기: memcpy와 memmove의 차이는?
  */
 void *my_memmove(void *dst, const void *src, size_t n)
 {

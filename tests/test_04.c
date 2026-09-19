@@ -30,7 +30,7 @@ static uint8_t reference_checksum(const uint8_t *edid)
 
 int main(void)
 {
-    printf("=== 04. Embedded / Monitor firmware ===\n");
+    printf("=== 04. Embedded ===\n");
 
     case_begin("1-a. BIT");
     CHECK_EQ(BIT(0), 1);
